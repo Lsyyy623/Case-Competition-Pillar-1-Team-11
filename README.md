@@ -39,7 +39,7 @@ root/
 │   └── sdg_keyword_dictionary.json
 │
 └── README.md
-
+```text
 
 
 # Scripts and Their Purpose
