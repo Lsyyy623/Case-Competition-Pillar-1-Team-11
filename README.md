@@ -23,7 +23,7 @@ The goal is to:
 # Repository Structure
 
 A typical layout (your actual filenames may differ, but the roles are the same):
-
+```text
 root/
 ├── schools/
 │   ├── SchoolA_faculty.py
@@ -38,7 +38,7 @@ root/
 │   └── sdg_keyword_dictionary.json
 │
 └── README.md
-
+```
 
 # Scripts and Their Purpose
 
