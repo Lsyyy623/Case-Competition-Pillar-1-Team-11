@@ -24,7 +24,6 @@ The goal is to:
 
 A typical layout (your actual filenames may differ, but the roles are the same):
 
-```text
 root/
 ├── schools/
 │   ├── SchoolA_faculty.py
@@ -39,7 +38,6 @@ root/
 │   └── sdg_keyword_dictionary.json
 │
 └── README.md
-```text
 
 
 # Scripts and Their Purpose
