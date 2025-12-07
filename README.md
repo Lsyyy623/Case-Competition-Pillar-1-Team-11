@@ -26,16 +26,16 @@ A typical layout (your actual filenames may differ, but the roles are the same):
 ```text
 root/
 ├── schools/
-│   ├── SchoolA_faculty.ipynb
-│   ├── SchoolA_publications.ipynb
-│   ├── SchoolB_faculty.ipynb
-│   ├── SchoolB_publications.ipynb
+│   ├── SchoolA_faculty_profile.ipynb
+│   ├── SchoolA_publication_lists.ipynb
+│   ├── SchoolB_faculty_profile.ipynb
+│   ├── SchoolB_publication_lists.ipynb
 │   └── ...
 │
 ├── abstract_and_sdg/
 │   ├── abstract_scraper.ipynb
-│   ├── sdg_keyword_matching.ipynb
-│   └── sdg_keyword_dictionary.xlsx
+│   ├── sdg_keyword_match.ipynb
+│   └── sdg_keywords.xlsx
 │
 └── README.md
 ```
