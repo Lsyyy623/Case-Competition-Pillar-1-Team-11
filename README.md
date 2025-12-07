@@ -1,5 +1,5 @@
 # Case-Competition-Pillar-1-Team-11
-# Team members: Chenxi Wu, Jiayi Zheng, Shiyun Lu
+### Team members: Chenxi Wu, Jiayi Zheng, Shiyun Lu
 # Project Overview
 This repository contains the code used to build a scalable data engine for cross-university sustainability research.  
 
