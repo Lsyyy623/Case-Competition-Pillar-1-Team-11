@@ -11,7 +11,7 @@ Our workflow includes:
 For each business school, we provide:
 - One script to collect **faculty / staff information**
 - One script to collect **publication lists**
-- Shared scripts to **retrieve abstracts** and **match them with sustainability-related keywords / SDGs**
+- Shared scripts to **retrieve abstracts** and **match them with sustainability-related keywords**
 
 The goal is to:
 
@@ -43,7 +43,7 @@ root/
 # Scripts and Their Purpose
 
 ## 📄 1. Faculty scraper (per school)
-**Purpose**  
+
 Scrape faculty or staff information from a specific business school website.
 
 **Output**  
@@ -56,7 +56,7 @@ A file containing:
 ---
 
 ## 📘 2. Publication scraper (per school)
-**Purpose**  
+ 
 Collect each faculty member’s publication list from a specific business school website. (e.g., 2015–present).
 
 **Output**  
@@ -107,6 +107,7 @@ Assigns each publication a **Primary SDG** and extracts SDG-related keywords usi
 - **Clean, interpretable outputs** for dashboards or downstream analytics.
 
 **Outputs**
+A file containing:
 - `Primary_SDG`  
 - `Primary_SDG_Score`  
 - `Primary_SDG_Relevant`  
