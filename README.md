@@ -106,7 +106,7 @@ Assigns each publication a **Primary SDG** and extracts SDG-related keywords usi
   - Includes fallback to ensure at least one relevant SDG keyword when appropriate
 - **Clean, interpretable outputs** for dashboards or downstream analytics.
 
-**Outputs**
+**Outputs**  
 A file containing:
 - `Primary_SDG`  
 - `Primary_SDG_Score`  
