@@ -46,7 +46,7 @@ root/
 
 Scrape faculty or staff information from a specific business school website.
 
-**Output**  
+**Outputs**  
 A file containing:
 - Faculty name  
 - Title / position  
@@ -59,7 +59,7 @@ A file containing:
  
 Collect each faculty member’s publication list from a specific business school website. (e.g., 2015–present).
 
-**Output**  
+**Outputs**  
 A file containing:
 - Paper title/citation
 - Author
