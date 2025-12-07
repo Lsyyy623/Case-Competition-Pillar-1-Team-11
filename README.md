@@ -11,7 +11,7 @@ Our workflow includes:
 For each business school, we provide:
 - One script to collect **faculty / staff information**
 - One script to collect **publication lists**
-- Shared scripts to **retrieve abstracts** and **match them with sustainability-related keywords**
+- Shared scripts to **retrieve abstracts** and **match them with 17 SDG goals and sustainability-related keywords**
 
 The goal is to:
 
@@ -25,19 +25,40 @@ The goal is to:
 A typical layout (your actual filenames may differ, but the roles are the same):
 ```text
 root/
-├── schools/
-│   ├── SchoolA_faculty_profile.ipynb
-│   ├── SchoolA_publication_lists.ipynb
-│   ├── SchoolB_faculty_profile.ipynb
-│   ├── SchoolB_publication_lists.ipynb
+├── code/                                # All data acquisition & processing scripts
+│   │
+│   ├── UIUC Gies/
+│   │   ├── Gies_faculty_scraper.ipynb
+│   │   ├── Gies_publication_scraper.ipynb
+│   │   └── ...
+│   │ 
+│   ├── Columbia Graduate Business School/
+│   │   ├── Columbia_faculty_scraper.ipynb
+│   │   ├── Columbia_publication_scraper.ipynb
+│   │   └── ...
+│   │
+│   ├── Northwestern Kellogg School of Management/
+│   │   ├── Kellogg_faculty_scraper.ipynb
+│   │   ├── Kellogg_publication_lists.ipynb
+│   │   └── ...
+│   │ 
+│   ├── Other Schools/
+│   │   ├── ...
+│   |
+│   |
+│   ├── abstract_scraper.ipynb            # Shared abstract engine (multi-source, DOI-first)
+│   ├── SDG_Keywords_Match.ipynb          # Shared SDG processing engine (TF-IDF + semantic match)
+│   └── SDG_keywords.csv                  # Shared SDG keyword dictionary
+│
+├── result/                               # Final SDG outputs (per school)
+│   ├── Columbia_with_SDG_TFIDF_semantic_keywords.csv
+│   ├── Columbia_with_SDG_TFIDF_semantic_keywords.xlsx
+│   ├── Gies_with_SDG_TFIDF_semantic_keywords.csv
+│   ├── Gies_with_SDG_TFIDF_semantic_keywords.xlsx
 │   └── ...
 │
-├── abstract_and_sdg/
-│   ├── abstract_scraper.ipynb
-│   ├── sdg_keyword_match.ipynb
-│   └── sdg_keywords.xlsx
-│
 └── README.md
+
 ```
 
 # Scripts and Their Purpose
